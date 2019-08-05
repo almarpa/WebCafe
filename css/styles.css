@@ -36,11 +36,22 @@ img {
     max-width: 100%;
 }
 /** Utilidades **/
-.centrar-text0 {
+.centrar-texto {
     text-align: center;
 }
 .no-margin {
     margin: 0;
+}
+
+/** Grid **/
+@media (min-width: 768px) {
+    .grid {
+        display: flex;
+        justify-content: space-between;
+    }
+    .columnas-6 {
+        flex: 0 0 calc(50% - 1rem);
+    }
 }
 
 /** Botones **/
