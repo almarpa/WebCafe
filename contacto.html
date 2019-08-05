@@ -30,14 +30,31 @@
     </header>
 
     <main class="contenedor">
-        <h4 class="centrar-texto">Sobre Nosotros</h4>
-        <div class="grid">
-            <div class="columnas-6">
-                <img src="img/nosotros.jpg" alt="Imagen Nostros">
+        <h2 class="centrar-texto">Contacto</h2>
+        
+        <div class="grid centrar-columnas">
+            <div class="columnas-12">
+                <img src="img/contacto.jpg" alt="imagen contacto">
             </div>
-            <div class="columnas-6">
-                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+
+            <div class="columnas-10 formulario-contacto">
+                <form action="#">
+                    <div class="campo">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" placeholder="Tu Nombre">
+                    </div>
+                    <div class="campo">
+                        <label for="email">E-Mail</label>
+                        <input type="email" id="email" placeholder="Tu Correo Electrónico">
+                    </div>
+                    <div class="campo mensaje">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje"></textarea>
+                    </div>
+                    <div class="enviar">
+                        <input type="submit" value="Enviar" class="btn btn-primario">
+                    </div>
+                </form>
             </div>
         </div>
     </main>
